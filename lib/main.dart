@@ -264,14 +264,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
   bool _obscureConfirmPassword = true;
 
   final List<String> departments = [
-    'IT Department',
-    'Human Resources',
-    'Finance',
-    'Operations',
-    'Administration',
+    'ICT Services',
     'Technical Support',
-    'Management',
-    'Other'
   ];
 
   void _handleRegistration() async {
