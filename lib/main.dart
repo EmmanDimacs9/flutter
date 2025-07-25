@@ -263,7 +263,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
   bool _obscurePassword = true;
   bool _obscureConfirmPassword = true;
 
-  final List<String> departments = [
+  List<String> get departments => [
     'ICT Services',
     'Technical Support',
   ];
