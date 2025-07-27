@@ -6,12 +6,25 @@ This Flutter project is an **ICT Services Management System** designed to stream
 
 **Main Features**
 
-- **Login & Registration:** Secure login with "remember me" functionality and user type routing (technician, admin, etc.).
-- **Dashboard:** Personalized dashboard with time-based greetings, quick stats, and navigation to main features.
+## Registration Page
+
+The registration page allows new users to create an account by entering essential information such as name, email, password, department, and role. It ensures data validation and assigns the correct user role during sign-up. After registration, users can immediately log in and are directed to the appropriate dashboard. The page emphasizes a user-friendly experience with intuitive forms, helpful validation messages, and easy navigation back to the login screen.
+
+## Login Page
+
+The login page provides secure authentication for users, supporting multiple roles such as technicians and admins. It includes a "remember me" feature to keep users signed in across sessions, and validates credentials before granting access. Upon successful login, users are routed to their respective dashboards based on their role. The interface is designed for ease of use, with clear input fields, error feedback, and quick navigation to registration if needed.
+
+- **Dashboard:** 
+
+Personalized dashboard with time-based greetings, quick stats, and navigation to main features.
+
 - **Task Management:**
-  - Enhanced task page with filtering (by status: All, Pending, In Progress, Completed, Overdue) and sorting (by due date, priority, etc.).
+  - 
+  Enhanced task page with filtering (by status: All, Pending, In Progress, Completed & Overdue) and sorting (by due date, priority and more.).
   - Detailed task cards with progress tracking, priority, category, and assignment info.
   - Ability to start tasks, update progress, and view task details in a dialog.
+
+
 - **History Page:**
   - Tabbed interface for viewing completed tasks, equipment scan history, and submitted reports.
   - Date range filtering and summary cards for quick stats.
@@ -28,6 +41,9 @@ This Flutter project is an **ICT Services Management System** designed to stream
 - **Persistent Settings:** Uses `shared_preferences` for storing user settings and login state.
 
 **File Structure Highlights**
+
+---
+
 
 - `lib/main.dart`: Entry point, app routing, and main navigation logic.
 - `lib/enhanced_task_page.dart`: Advanced task management UI and logic.
